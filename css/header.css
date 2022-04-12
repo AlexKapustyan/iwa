@@ -1,0 +1,183 @@
+header {
+  max-width: 1420px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+header .head {
+  max-width: 1174px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 21px 0;
+  margin: auto;
+}
+
+header .head .tel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .head .tel .phone a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+
+header .head .tel .data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  justify-content: space-between;
+}
+
+header .head .tel .data p {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  color: #A1AEB7;
+}
+
+header .head .tel .data p:first-child {
+  margin-right: 17px;
+}
+
+header .head .tel .callback {
+  margin-left: 24px;
+  padding: 10px 24px;
+  background-color: #E5E8F2;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #001681;
+}
+
+header .head .logo {
+  margin-left: -20%;
+}
+
+header .head .bag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .head .bag .logo_bag {
+  background-image: url(../img/bag.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 17px;
+  width: 14px;
+  margin-right: 9px;
+}
+
+header .head .bag .bracket {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .head .bag p {
+  margin-right: 2px;
+}
+
+header .head .bag input {
+  width: 10px;
+}
+
+header .input-group {
+  max-width: 1174px;
+  margin: auto;
+  margin-top: 4px;
+}
+
+header .input-group .form-outline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+header .input-group .form-outline .form-control {
+  border-radius: 0;
+  background: rgba(231, 235, 239, 0.5);
+  border: 0;
+}
+
+header .input-group .form-outline .line {
+  background: rgba(231, 235, 239, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .input-group .form-outline .btn {
+  border-radius: 0;
+  background: rgba(231, 235, 239, 0.5);
+  border: 0;
+}
+
+header .input-group .form-outline .btn .search {
+  background-image: url(../img/search.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 17px;
+  height: 17px;
+}
+
+header .navbar-nav {
+  max-width: 1174px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 19px;
+}
+
+header .navbar-nav a {
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #1E1F21;
+}

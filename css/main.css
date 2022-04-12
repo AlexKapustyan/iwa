@@ -1,0 +1,421 @@
+main {
+  max-width: 1420px;
+  margin: auto;
+  padding: 0 10px;
+  margin-top: 29px;
+}
+
+main section {
+  max-width: 1174px;
+  margin: auto;
+}
+
+main #ss1 .carousel-caption {
+  margin-bottom: 70px;
+}
+
+main #ss1 .carousel-caption h5 {
+  font-family: Montserrat;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+}
+
+main #ss1 .carousel-caption p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+}
+
+main #ss1 .carousel-caption .btn {
+  margin-top: 42px;
+  border-radius: 0px;
+  border: 0;
+  padding: 14px 32px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+
+main #ss1 .carousel-control-prev {
+  margin-left: 36%;
+}
+
+main #ss1 .carousel-control-next {
+  margin-right: 36%;
+}
+
+main #ss1 .carousel-control-prev-icon {
+  background-image: url(../img/icon/left.svg);
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+}
+
+main #ss1 .carousel-control-next-icon {
+  background-image: url(../img/icon/right.svg);
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+}
+
+main #ss1 .carousel-control-next, main #ss1 .carousel-control-prev {
+  top: 311px;
+  opacity: 0.5;
+  -webkit-transition: none;
+  transition: none;
+  width: 15%;
+}
+
+main #ss1 .carousel-indicators {
+  margin-left: 47%;
+  max-width: 65px;
+}
+
+main #ss1 .carousel-indicators li {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+main #ss1 .carousel-indicators .active {
+  width: 16px;
+  border-radius: 50%;
+}
+
+main #ss2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 150px;
+}
+
+main #ss2 .product {
+  width: 55%;
+}
+
+main #ss2 .product h2 {
+  margin-bottom: 0;
+  font-family: Montserrat;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+}
+
+main #ss2 .product .product_inner {
+  margin-top: 44px;
+}
+
+main #ss2 .product .product_inner .card {
+  border: 0;
+}
+
+main #ss2 .product .product_inner .card .card-inner:hover {
+  border: 2px solid #E7EBEF;
+}
+
+main #ss2 .product .product_inner .card .card-inner:hover .hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main #ss2 .product .product_inner .card .card-inner:hover .hover .btn-secondary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 7px;
+  width: 100%;
+  background: #E5E8F2;
+  border: 0;
+  border-radius: 0;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #505D68;
+}
+
+main #ss2 .product .product_inner .card .card-inner:hover .hover .btn-primary {
+  margin-top: 28px;
+  width: 100%;
+  background: #001681;
+  border: 0;
+  border-radius: 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8px 0;
+}
+
+main #ss2 .product .product_inner .card .card-inner:hover .hover .btn-primary .logo_bag {
+  background-image: url(../img/icon/bag-w.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 17px;
+  width: 14px;
+  margin-right: 9px;
+}
+
+main #ss2 .product .product_inner .card .card-body {
+  -ms-flex: 1 1 auto;
+  -webkit-box-flex: 1;
+          flex: 1 1 auto;
+  min-height: 1px;
+  padding-top: 10px;
+}
+
+main #ss2 .product .product_inner .card .card-body h5 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  margin-bottom: 0;
+}
+
+main #ss2 .product .product_inner .card .card-body p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #A1AEB7;
+}
+
+main #ss2 .product .product_inner .card .card-body .price {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+  margin-top: 16px;
+}
+
+main #ss2 .product .product_inner .hover {
+  display: none;
+}
+
+main #ss2 .line {
+  height: 954px;
+  width: 2px;
+  background: #E7EBEF;
+}
+
+main #ss2 .news {
+  width: 36%;
+}
+
+main #ss2 .news h2 {
+  margin-bottom: 0;
+  font-family: Montserrat;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+}
+
+main #ss2 .news ul {
+  margin-top: 44px;
+}
+
+main #ss2 .news ul li {
+  margin-bottom: 24px;
+}
+
+main #ss2 .news ul li a {
+  text-decoration: none;
+  color: #1E1F21;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+}
+
+main #ss2 .news ul li a:hover {
+  color: #001681;
+}
+
+main #ss2 .news ul li p {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0.08em;
+}
+
+main #ss3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 201px;
+}
+
+main #ss3 .stor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main #ss3 .stor div:first-child {
+  border-right: 2px solid  #E7EBEF;
+}
+
+main #ss3 .stor div {
+  max-width: 350px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+main #ss3 .stor div h2 {
+  font-family: Montserrat;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+}
+
+main #ss3 .stor div h3 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  margin-bottom: 32px;
+}
+
+main #ss3 .stor div p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+main #ss3 .stor div:nth-child(2) p {
+  margin-bottom: 17px;
+}
+
+main #ss3 .stor .right-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+main #ss3 .catalog {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #001681;
+  color: #fff;
+  padding: 48px;
+  margin-top: 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #ss3 .catalog .iwa h4 {
+  font-family: Montserrat;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0em;
+}
+
+main #ss3 .catalog .iwa p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+main #ss3 .catalog .btn {
+  padding: 14px 32px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  border-radius: 0;
+}
+
+#ss4 {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}

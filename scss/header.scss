@@ -1,0 +1,151 @@
+
+header {
+	max-width: 1420px;
+	margin: auto;
+	padding: 0 10px;	
+
+	.head {
+		max-width: 1174px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 21px 0;
+		margin: auto;
+
+		.tel {
+			display: flex;
+			justify-content: space-between;
+
+			.phone a {
+				text-decoration: none;
+				color: black;
+				font-size: 14px;
+				font-weight: 700;
+				font-family: "Montserrat";
+			}
+
+			.data {
+				display: flex;
+				justify-content: space-between;
+				justify-content: space-between;			
+
+				p {					
+					font-family: Montserrat;
+					font-size: 12px;
+					font-weight: 500;
+					line-height: 14px;
+					letter-spacing: 0.08em;
+					text-align: left;
+					color: #A1AEB7 ;
+				}
+
+				p:first-child {
+					margin-right: 17px;
+				}
+			}
+
+			.callback {
+				margin-left: 24px;
+				padding: 10px 24px;
+				background-color: #E5E8F2;
+				font-family: Montserrat;
+				font-size: 14px;
+				font-weight: 700;
+				line-height: 16px;
+				letter-spacing: 0.03em;
+				color: #001681;
+			}
+		}	
+
+		.logo {
+			margin-left: -20%;
+		}
+		
+		
+		.bag {
+			display: flex;
+			align-items: center;
+
+			.logo_bag {				
+				background-image: url(../img/bag.svg);
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-size: cover;
+				height: 17px;
+				width: 14px;
+				margin-right: 9px;
+			}
+
+			.bracket {
+				display: flex;
+			}
+
+			p{
+				margin-right: 2px;
+			}
+			
+			input { 
+				width: 10px;				
+			}
+		}
+	}
+
+	.input-group {
+		max-width: 1174px;
+		margin: auto;
+		margin-top: 4px;
+		
+		.form-outline {
+			display: flex;
+			justify-content: space-between;
+			width: 100%;
+
+			.form-control {
+				border-radius: 0;
+				background: rgba(231, 235, 239, 0.5);
+				border: 0;
+			}
+
+			.line {			
+				background: rgba(231, 235, 239, 0.5);
+				display: flex;
+				align-items: center;
+			}
+
+			.btn {
+				border-radius: 0;
+				background: rgba(231, 235, 239, 0.5);				
+				border: 0;
+
+				.search {
+					background-image: url(../img/search.svg);
+					background-repeat: no-repeat;
+					background-position: center center;
+					background-size: cover;
+					width: 17px;
+					height: 17px;
+				}
+			}
+		}
+	}
+
+	.navbar-nav {
+		max-width: 1174px;
+		margin: auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-top: 19px;
+
+		a {
+			text-decoration: none;
+			font-family: Montserrat;
+			font-size: 14px;
+			font-weight: 500;
+			line-height: 16px;
+			letter-spacing: 0.03em;			
+			color: #1E1F21;
+		}
+	}
+}
+
